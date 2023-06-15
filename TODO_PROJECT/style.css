@@ -2,8 +2,29 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-}html,body{
+}html{
    height: 100%;
    width: 100%;
 }
 
+body{
+   background-color: linear-gradient(120deg,#f6d365,#fda085);
+   color: white;
+   font-family: "poopins",sans-serif;
+   min-height: 100vh;
+}
+header{
+   font: size 1.5rem;
+}
+header,form{
+   min-height: 20vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+form input, form button {
+   padding: 0.5rem;
+   font-size: 2rem;
+   border: none;
+   background: white;
+}
